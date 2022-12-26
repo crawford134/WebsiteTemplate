@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root{
+  --selected-theme-background-color: var(--dark-theme-background-color);
+  --selected-theme-main-color-dark: var(--dark-theme-main-color-dark);
+  --selected-theme-main-color-normal: var(--dark-theme-main-color-normal);
+  --selected-theme-main-color-light: var(--dark-theme-main-color-light);
+  --selected-theme-sub-text-color1: var(--dark-theme-sub-text-color1);
+  --selected-theme-sub-text-color2: var(--dark-theme-sub-text-color2);
+  --selected-theme-sub-text-color3: var(--dark-theme-sub-text-color3);
+  --selected-theme-sub-text-color4: var(--dark-theme-sub-text-color4);
+  --selected-theme-header-background-color: var(--dark-theme-header-background-color);
+  --selected-theme-header-border-color: var(--dark-theme-border-color);
+
+  /* Dark Theme Colors */
+  --dark-theme-background-color: #1d1d1d;
+  --dark-theme-main-color-dark: #0288d1;
+  --dark-theme-main-color-normal: #03a9f4;
+  --dark-theme-main-color-light: #4fc3f7; 
+  --dark-theme-sub-text-color1: #fff; /* Colours that Stay the Same between Themes*/
+  --dark-theme-sub-text-color2: #000;
+  --dark-theme-sub-text-color3: #fff; /* Colours that Change between Themes*/
+  --dark-theme-sub-text-color4: #000;
+  --dark-theme-header-background-color: #181818;
+  --dark-theme-header-border-color: #282828;
+
+  /* Light Theme Colors */
+  --light-theme-background-color: #e6f3fa;
+  --light-theme-main-color-dark: #014469;
+  --light-theme-main-color-normal: #015f92;
+  --light-theme-main-color-light: #027abc; 
+  --light-theme-sub-text-color1: #fff; /* Colours that Stay the Same between Themes*/
+  --light-theme-sub-text-color2: #000;
+  --light-theme-sub-text-color3: #000; /* Colours that Change between Themes*/
+  --light-theme-sub-text-color4: #fff;
+  --light-theme-header-background-color: #c1ccd2;
+  --light-theme-header-border-color: #b5b5b5;
+
+  --font-base: "Roboto Slab", serif
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body{
+  background: var(--selected-theme-background-color);
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
